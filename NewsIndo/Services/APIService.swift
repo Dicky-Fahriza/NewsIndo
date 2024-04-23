@@ -16,7 +16,7 @@ class APIService {
         guard let url = URL(string: Constant.newsUrl) else { throw
             URLError(.badURL)
         }
-            let news =  try await withCheckedThrowingContinuation {
+        let news =  try await withCheckedThrowingContinuation {
                 continuation in
                 AF.request(url).responseDecodable(of: News.self) { response in
                     switch response.result {
@@ -29,6 +29,6 @@ class APIService {
                 }
             }
             
-        return []
+        return news
     }
 }
