@@ -46,6 +46,7 @@ struct ContentView: View {
                                 UIApplication.shared.firstKeyWindow?.rootViewController?.present(vc, animated: true)
                             } label: {
                                  Text("Selengkapnya")
+                                    .foregroundStyle(.blue)
                             }
                         }
                     }
