@@ -6,7 +6,7 @@ Practice projects create news (kumparan.com)
 
 ## Screen Shoot
 
-![App Screenshot](https://res.cloudinary.com/dyhiieqlt/image/upload/v1714916083/Screenshot_2024-05-05_at_20.30.38_ldsbnf.png)
+![App Screenshot](https://res.cloudinary.com/dyhiieqlt/image/upload/v1714920827/Screenshot_2024-05-05_at_21.50.47_la1vmi.png)
 ## Authors
 
 - [@dickyfahriza](https://www.github.com/dicky-fahriza)
